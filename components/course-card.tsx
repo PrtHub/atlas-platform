@@ -31,14 +31,14 @@ export const CourseCard = ({
         </figure>
 
         <section className="flex flex-col pt-2">
-          <span className="text-lg md:text-base font-medium group-hover:text-sky-700 transition line-clamp-2">
+          <span className="text-lg md:text-base font-medium group-hover:text-orange/90 transition line-clamp-2">
             {title}
           </span>
 
           <p className="text-xs text-muted-foreground">{category}</p>
 
           <section className="my-3 flex items-center gap-x-2 text-sm md:text-xs">
-            <div className="flex items-center gap-x-1 text-slate-500">
+            <div className="flex items-center gap-x-1 text-gray-500">
               <IconBadge size="sm" icon={BookOpen} />
 
               <span>
