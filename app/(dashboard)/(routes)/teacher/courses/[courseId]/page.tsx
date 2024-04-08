@@ -75,7 +75,7 @@ const CourseIdPage = async ({ params }: { params: { courseId: string } }) => {
       {!course.isPublished ? (
         <Banner variant='warning' label="This course is not published. It will not vissible to the students."/>
      ) : (
-      <Banner variant='success' label="This course is published. It will now vissible to the students."/>
+      <Banner variant='success' label="This course is published. It will be vissible to the students."/>
      )}
       <div className="p-6">
         <section className="flex items-center justify-between">
@@ -91,7 +91,7 @@ const CourseIdPage = async ({ params }: { params: { courseId: string } }) => {
           isPublished={course.isPublished}
         />
         </section>
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-16">
+        <section className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-16">
           <div>
             <div className="flex items-center gap-x-2">
               <IconBadge icon={LayoutDashboard} />

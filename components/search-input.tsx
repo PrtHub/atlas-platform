@@ -32,7 +32,7 @@ export const SearchInput = () => {
 
   return (
     <section className="relative">
-      <Search className="h-4 w-4 absolute top-3 left-3 text-gray-600" />
+      <Search className="h-4 w-4 absolute top-[10px] left-3 text-gray-600" />
       <Input
         onChange={(e) => setValue(e.target.value)}
         value={value}
