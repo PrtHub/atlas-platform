@@ -8,7 +8,7 @@ interface CourseProgressProps {
 };
 
 const colorByVariant = {
-  default: "text-sky-700",
+  default: "text-orange",
   success: "text-emerald-700",
 }
 
@@ -30,7 +30,7 @@ export const CourseProgress = ({
         variant={variant}
       />
       <p className={cn(
-        "font-medium mt-2 text-sky-700",
+        "font-medium mt-2 text-orange/80",
         colorByVariant[variant || "default"],
         sizeByVariant[size || "default"],
       )}>
